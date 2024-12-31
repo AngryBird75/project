@@ -1,0 +1,53 @@
+*{ 
+      margin :0 ;
+      padding : 0;
+      font-family: sans-serif;
+      box-sizing: border-box;
+
+}
+ .header,body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url(healthcare.webp);
+    background-position: center ;
+    background-size: cover ;
+    color: #fff;
+    overflow-x: hidden;
+    position: relative;
+   
+ }
+ nav { 
+   width: 100%;
+   height: 100px;
+   display: flex;
+   justify-content:right ;
+   align-items: center;
+ }
+
+ 
+ .menu img {
+      place-items: right;
+         justify-content: right;
+          text-align: right;
+          align-items: right;
+          height: 50px;
+          top: 0;
+ }
+
+  .main-text{
+    margin: 15% auto;
+    text-align: center;
+  }
+  .main-text h1{
+     font-size: 50px;
+  }
+  .bottom{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    bottom: 0;
+    opacity: 0.3;
+}
+
+
+
