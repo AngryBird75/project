@@ -9,7 +9,7 @@
 <body>
   <div class="wrapper">
     <form action="DL.php" method="POST" >
-    <a href="http://127.0.0.1:3000/project/index.html"><img src="cros.png" class="i" ></a>
+    <a href="http://127.0.0.1:3000/index.html"><img src="cros.png" class="i" ></a>
       <h2>Login</h2>
         <div class="input-field">
         <input type="text" name="UserName" required>
@@ -24,11 +24,17 @@
           <input type="checkbox" id="remember">
           <p>Remember me</p>
         </label>
-        <a href="#">Forgot password?</a>
+        <button onclick="myFunction()">Forgot password?</button>
+
+<script>
+function myFunction() {
+  alert(" Contect to admin !");
+}
+</script>
       </div>
       <button type="submit" name="SubmiT" >Log In</button>
       <div class="register">
-        <p>Don't have an account? <a href="http://localhost/project/reg.php">Reg ister</a></p>
+        <p>Don't have an account? <a href="http://localhost/project/reg.php">Register</a></p>
       </div>
     </form>
   </div>
